@@ -1,0 +1,61 @@
+/* 全局样式表 */
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+  min-width: 1200px;
+}
+.el-breadcrumb {
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+.el-card {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2) !important;
+}
+.el-table {
+  margin-top: 15px;
+  font-size: 12px;
+  /* cursor: pointer; */
+}
+.el-input__suffix {
+  color: #67c23a;
+}
+/* 级联选择框高度超出问题 */
+.el-cascader-menu__list,
+.el-scrollbar__wrap {
+  height: 300px !important;
+}
+/* 分页功能切换每页显示条数的选择框 */
+.el-scrollbar__wrap {
+  height: 165px;
+}
+/* 添加商品步骤条下的字体大小 */
+.el-step__title {
+  font-size: 12px;
+}
+/* 富文本编辑器的高度 */
+.ql-editor {
+  min-height: 300px;
+}
+/* 订单列表页面修改订单信息中的 select 选择框打开后的高度 */
+.el-scrollbar__wrap {
+  height: 100% !important;
+}
+.el-menu--popup {
+  min-width: 142px;
+}
+
+.is-link {
+  font-weight: 400 !important;
+  color: #606266 !important;
+}
+.el-breadcrumb__item:last-child .el-breadcrumb__inner {
+  font-weight: 700 !important;
+  color: #303133 !important;
+}
+/* .el-menu--popup-bottom-start {
+  margin-top: 2px !important;
+} */
